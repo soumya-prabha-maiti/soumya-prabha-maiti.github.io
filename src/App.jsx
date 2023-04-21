@@ -1,35 +1,62 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { BsFillMoonStarsFill } from "react-icons/bs";
+import {
+  AiFillLinkedin,
+  AiFillTwitterCircle,
+  AiFillMail,
+} from "react-icons/ai";
+import dp from "/dp.jpg";
+import Education from "./Education.jsx";
+import Projects from "./Projects.jsx";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1 className="bg-red-500">Vite + React</h1>
-      <div className="card ">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more!!!!!
-      </p>
-    </div>
-  )
+    <main className="px-10">
+      <section>
+        <nav className="py-10 mb-12 flex justify-between">
+          <h1 className="text-xl font-burtons">Soumya Prabha Maiti</h1>
+          <ul className="flex items-center">
+            <li>
+              <BsFillMoonStarsFill className="cursor-pointer text-2xl" />
+            </li>
+            <li>
+              <a
+                className="bg-gradient-to-r from-blue-400 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
+                href="#"
+              >
+                Resume
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div className="text-center p-10 ">
+          <h1 className="text-5xl py-4 text-teal-700 font-medium">
+            Soumya Prabha Maiti
+          </h1>
+          <p className="text-lg py-4">
+            Hello everyone! Welcome to my website. My name is Soumya and I am a
+            final year undergraduate student of Electronics and
+            Tele-Communication Engineering at Jadavpur University.
+            {/* I love to code and have a strong interest in AI/ML and Image processing. */}
+            {/* Here, you will find a collection of my work, achievements, and skills.  */}
+          </p>
+        </div>
+        <div className="text-4xl flex gap-8 justify-center text-gray-700">
+          <AiFillLinkedin />
+          <AiFillTwitterCircle />
+          <AiFillMail />
+        </div>
+        <div className="relative mx-auto bg-teal-500 rounded-full w-80 h-80 mt-10 overflow-hidden">
+          <img src={dp} alt="" />
+        </div>
+      </section>
+
+      <Education/>
+
+      <Projects/>
+
+      
+    </main>
+  );
 }
 
-export default App
+export default App;
