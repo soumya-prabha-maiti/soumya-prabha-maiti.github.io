@@ -276,7 +276,7 @@ export const projects = [
     title: "Semantic segmentation of pet images",
     date: "",
     description: "A web app that segments the image of a pet animal into three regions - foreground (pet), background and boundary. It uses a U-Net model trained on Oxford-IIIT Pet Dataset and is deployed using Gradio.",
-    image: "https://raw.githubusercontent.com/soumya-prabha-maiti/image-segmentation-web-app/df09d7fd9603872d8b23144c7227a169aee2e302/readme_images/image.png",
+    image: "https://raw.githubusercontent.com/soumya-prabha-maiti/image-segmentation-web-app/main/readme_images/image.png",
     tags: 
     [
       "Deep Learning",
@@ -293,22 +293,22 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Text Emotion Classifier using BERT",
+    title: "Hate Speech Classification using LSTM",
     date: "",
-    description: "A project to classify the emotion of a given text into one of the following categories: anger, fear, joy, love, sadness, surprise. The model is built using the BERT architecture and is trained on the Emotion Dataset from Kaggle.",
-    image: "",
+    description: "A project to classify the input text as hate speech or not using an LSTM model trained on the Hate Speech and Offensive Language dataset and Twitter hate speech dataset from Kaggle.",
+    image: "https://raw.githubusercontent.com/soumya-prabha-maiti/hate-speech-classification/main/readme_images/demo.jpg",
     tags: 
     [
       "Natural Language Processing",
-      "BERT",
+      "LSTM",
       "Python",
       "TensorFlow",
       "Gradio",
       "HuggingFace Spaces",
     ],
     category: "machine learning",
-    github: "https://github.com/soumya-prabha-maiti/text-emotion-classifier",
-    webapp: "https://huggingface.co/spaces/soumyaprabhamaiti/text_emotion_classifier_using_BERT",
+    github: "https://github.com/soumya-prabha-maiti/hate-speech-classification",
+    webapp: "https://huggingface.co/spaces/soumyaprabhamaiti/hate_speech_classifier",
   },
   {
     id: 3,
