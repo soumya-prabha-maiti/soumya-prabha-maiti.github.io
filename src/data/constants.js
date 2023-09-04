@@ -1,7 +1,7 @@
 export const Bio = {
   name: "Soumya Prabha Maiti",
   roles: ["Programmer", "Backend Developer", "ML enthusiast"],
-  description: "", //"I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+  description: "I am a 4th year undergraduate student of Electronics and Tele-Communication Engineering at Jadavpur University, Kolkata, India. I am a machine learning enthusiast and a passionate programmer. I love to learn new things and explore new technologies. Feel free to read more about me or contact me.", 
   github: "https://github.com/soumya-prabha-maiti",
   linkedin: "https://www.linkedin.com/in/soumya-prabha-maiti/",
   email: "mailto:soumyaprabhamaiti2001@gmail.com",
