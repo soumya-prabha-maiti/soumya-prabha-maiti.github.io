@@ -38,15 +38,15 @@ function App() {
         <Body>
           <HeroSection />
           <Wrapper>
-            <Skills />
+            <Education />
+          </Wrapper>
+          <Wrapper>
             <Experience />
           </Wrapper>
+          <Skills />
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
-          <Wrapper>
-            <Education />
             {/* TODO ADD Contact */}
             {/* <Contact /> */}
-          </Wrapper>
           <Footer />
           {openModal.state &&
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
