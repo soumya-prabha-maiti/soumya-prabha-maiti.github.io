@@ -2,8 +2,9 @@ import React from 'react'
 import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, ButtonContainer, MobileIcon, MobileIcons, MobileMenu, MobileNavLogo, MobileLink, DarkModeToggle } from './NavbarStyledComponent'
 import { DiCssdeck } from 'react-icons/di';
 import { Brightness7, Brightness4, Close, Menu } from '@mui/icons-material';
+import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import { useTheme } from 'styled-components';
-
+import { Bio } from '../../data/constants';
 
 const Navbar = ({darkMode,setDarkMode}) => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -37,6 +38,8 @@ const Navbar = ({darkMode,setDarkMode}) => {
           <NavLink href='#skills'>Skills</NavLink>
           <NavLink href='#projects'>Projects</NavLink>
           {/* <NavLink href='#awards'>Awards</NavLink> */}
+          <NavLink href={Bio.resume} target="_blank">Resume<span><OpenInNewIcon fontSize='small'/></span></NavLink>
+          
         </NavItems>
         
         <ButtonContainer>

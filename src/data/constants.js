@@ -5,7 +5,7 @@ export const Bio = {
   github: "https://github.com/soumya-prabha-maiti",
   linkedin: "https://www.linkedin.com/in/soumya-prabha-maiti/",
   email: "mailto:soumyaprabhamaiti2001@gmail.com",
-  resume: "",
+  resume: "/personal-portfolio/Soumya_Prabha_Maiti-Resume.pdf",
   twitter: "",
   insta: "",
   facebook: "",

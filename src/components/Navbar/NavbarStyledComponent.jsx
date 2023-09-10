@@ -59,6 +59,7 @@ export const NavItems = styled.ul`
 `;
 
 export const NavLink = styled.a`
+    display: flex;
     color: ${({ theme }) => theme.text_primary};
     font-weight: 500;
     cursor: pointer;
