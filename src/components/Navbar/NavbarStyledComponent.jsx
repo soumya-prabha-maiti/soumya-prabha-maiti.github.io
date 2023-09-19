@@ -100,13 +100,13 @@ export const MobileIcons = styled.div`
   }
   `
   
-  export const MobileIcon = styled.div`
-  cursor: pointer;
-  transition: color 0.2s ease-in-out;
-  color: ${({ theme }) => theme.text_primary};
-  &:hover {
-    color: ${({ theme }) => theme.primary};
-  }
+export const MobileIcon = styled.div`
+cursor: pointer;
+transition: color 0.2s ease-in-out;
+color: ${({ theme }) => theme.text_primary};
+&:hover {
+  color: ${({ theme }) => theme.primary};
+}
 `
 
 export const MobileMenu = styled.div`

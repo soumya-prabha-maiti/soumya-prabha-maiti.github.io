@@ -19,16 +19,16 @@ const Navbar = ({darkMode,setDarkMode}) => {
           </a>
         </NavLogo>
 
-          <MobileIcons>
-            <DarkModeToggle onClick={()=>{setDarkMode(!darkMode)}}>
-              <>{darkMode ? <Brightness7/> : <Brightness4 />}</>
-            </DarkModeToggle>
-            <MobileIcon onClick={() => {
-              setIsOpen(!isOpen)
-            }}>
-              {isOpen ? <Close /> : <Menu />}
-            </MobileIcon>
-          </MobileIcons>
+        <MobileIcons>
+          <DarkModeToggle onClick={()=>{setDarkMode(!darkMode)}}>
+            <>{darkMode ? <Brightness7/> : <Brightness4 />}</>
+          </DarkModeToggle>
+          <MobileIcon onClick={() => {
+            setIsOpen(!isOpen)
+          }}>
+            {isOpen ? <Close /> : <Menu />}
+          </MobileIcon>
+        </MobileIcons>
 
         <NavItems>
           <NavLink href="#about">About</NavLink>
