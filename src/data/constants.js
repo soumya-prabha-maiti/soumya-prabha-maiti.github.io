@@ -315,7 +315,7 @@ export const projects = [
     title: "Flask Blog Application",
     date: "",
     description: "A blog application built using Flask, SQLite and Bootstrap. It has features like user registration, login, logout, create, update and delete posts, pagination, password reset, etc.",
-    image: "",
+    image: "https://raw.githubusercontent.com/soumya-prabha-maiti/Flask-blog/main/readme_images/home.jpeg",
     tags: 
     [
       "Python",
@@ -327,7 +327,7 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/soumya-prabha-maiti/Flask-blog",
-    webapp: "https://github.com/soumya-prabha-maiti/Flask-blog",
+    webapp: "https://soumyaprabhamaiti-flask-blog.hf.space/home",
   },
   // {
   //   id: 1,
