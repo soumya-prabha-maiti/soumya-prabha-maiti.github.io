@@ -257,8 +257,8 @@ export const projects = [
     id: 0,
     title: "Tomato leaf disease classifier",
     date: "",
-    description: "",
-    image: "",
+    description: "A webapp that uses Convolutional Neural Network(CNN) is used to predict the disease of a tomato leaf by using the image of a tomato leaf as input.",
+    image: "https://raw.githubusercontent.com/soumya-prabha-maiti/tomato-leaf-disease-classification/master/images/project_main_ss.png",
     tags: [
       "Deep learning",
       "CNN",
@@ -268,8 +268,8 @@ export const projects = [
       "Docker",
     ],
     category: "machine learning",
-    github: "",
-    webapp: "",
+    github: "https://github.com/soumya-prabha-maiti/tomato-leaf-disease-classification",
+    webapp: "https://huggingface.co/spaces/soumyaprabhamaiti/tomato_leaf_disease_classification",
   },
   {
     id: 1,
@@ -327,7 +327,7 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/soumya-prabha-maiti/Flask-blog",
-    webapp: "",
+    webapp: "https://github.com/soumya-prabha-maiti/Flask-blog",
   },
   // {
   //   id: 1,
