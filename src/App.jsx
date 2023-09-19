@@ -36,11 +36,11 @@ function App() {
       <Router >
         <Navbar darkMode={darkMode} setDarkMode={setDarkMode}/>
         <Body>
-          <HeroSection />
           <Wrapper>
-            <Education />
+            <HeroSection />
           </Wrapper>
           <Wrapper>
+            <Education />
             <Experience />
           </Wrapper>
           <Skills />
