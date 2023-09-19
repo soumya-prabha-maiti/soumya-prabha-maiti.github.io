@@ -54,18 +54,21 @@ const Navbar = ({darkMode,setDarkMode}) => {
             <MobileLink href="#about" onClick={() => {
               setIsOpen(!isOpen)
             }}>About</MobileLink>
-            <MobileLink href='#skills' onClick={() => {
-              setIsOpen(!isOpen)
-            }}>Skills</MobileLink>
-            <MobileLink href='#experience' onClick={() => {
-              setIsOpen(!isOpen)
-            }}>Experience</MobileLink>
-            <MobileLink href='#projects' onClick={() => {
-              setIsOpen(!isOpen)
-            }}>Projects</MobileLink>
             <MobileLink href='#education' onClick={() => {
               setIsOpen(!isOpen)
             }}>Education</MobileLink>
+            <MobileLink href='#experience' onClick={() => {
+              setIsOpen(!isOpen)
+            }}>Experience</MobileLink>
+            <MobileLink href='#skills' onClick={() => {
+              setIsOpen(!isOpen)
+            }}>Skills</MobileLink>
+            <MobileLink href='#projects' onClick={() => {
+              setIsOpen(!isOpen)
+            }}>Projects</MobileLink>
+            <MobileLink href={Bio.resume} target="_blank" onClick={() => {
+              setIsOpen(!isOpen)
+            }}>Resume<span><OpenInNewIcon fontSize='small'/></span></MobileLink>
           </MobileMenu>
         }
       </NavbarContainer>
