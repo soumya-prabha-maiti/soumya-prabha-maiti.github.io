@@ -16,10 +16,9 @@ export const lightTheme = {
     bg:"#FFFFFF",
     bgLight: "#f0f0f0",
     primary:"#be1adb",
-    text_primary:"#111111",
-    text_secondary:"#48494a",
+    text_primary:"#000000",
+    text_secondary:"#000000",
     card:"#FFFFFF",
-    // TODO change card_light to a lighter color
-    card_light: '#808080',
+    card_light: '#FFFFFF',
     button:"#5c5b5b",
 }
