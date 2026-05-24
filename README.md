@@ -1,1 +1,0 @@
-[![Deploy static content to Pages](https://github.com/soumya-prabha-maiti/personal-portfolio/actions/workflows/deploy.yml/badge.svg)](https://github.com/soumya-prabha-maiti/personal-portfolio/actions/workflows/deploy.yml)
