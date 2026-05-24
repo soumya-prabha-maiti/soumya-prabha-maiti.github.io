@@ -1,0 +1,117 @@
+baseURL = "https://soumya-prabha-maiti.github.io/"
+languageCode = "en-us"
+title = "Soumya Prabha Maiti"
+theme = "PaperMod"
+paginate = 10
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+disablePathToLower = true
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+[params]
+  env = "production"
+  title = "Soumya Prabha Maiti"
+  description = "Personal portfolio of Soumya Prabha Maiti - ML enthusiast, backend developer, and programmer."
+  keywords = ["Portfolio", "Machine Learning", "Backend Developer", "Soumya Prabha Maiti"]
+  author = "Soumya Prabha Maiti"
+  images = ["images/HeroImage.jpg"]
+  DateFormat = "January 2, 2006"
+  defaultTheme = "dark"
+  disableThemeToggle = false
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = true
+  ShowWordCount = false
+  ShowRssButtonInSectionTermList = false
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = false
+  tocopen = false
+
+  [params.assets]
+
+  [params.label]
+    text = "Soumya Prabha Maiti"
+
+  [params.profileMode]
+    enabled = true
+    title = "Soumya Prabha Maiti"
+    subtitle = "I am a Software Development Engineer at Amazon, Bangalore. I am a machine learning enthusiast and a passionate programmer. I love to learn new things and explore new technologies. Feel free to read more about me or contact me."
+    imageUrl = "images/HeroImage.jpg"
+    imageWidth = 200
+    imageHeight = 200
+    imageTitle = "Soumya Prabha Maiti"
+
+  [params.homeInfoParams]
+    Title = "Soumya Prabha Maiti"
+    Content = "ML enthusiast · Backend Developer · Programmer"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/soumya-prabha-maiti/"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/soumya-prabha-maiti"
+
+  [[params.socialIcons]]
+    name = "googlescholar"
+    url = "https://scholar.google.com/citations?user=DYqm0ysAAAAJ"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:soumyaprabhamaiti2001@gmail.com"
+
+[menu]
+  [[menu.main]]
+    identifier = "education"
+    name = "Education"
+    url = "/education/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "experience"
+    name = "Experience"
+    url = "/experience/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "publications"
+    name = "Publications"
+    url = "/publications/"
+    weight = 40
+    
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 50
+
+  [[menu.main]]
+    identifier = "resume"
+    name = "Resume ↗"
+    url = "Soumya_Prabha_Maiti-Resume.pdf"
+    weight = 70
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+    anchorLineNos = true
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    style = "monokai"
