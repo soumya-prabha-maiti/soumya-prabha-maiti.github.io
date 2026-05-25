@@ -10,9 +10,11 @@ hidemeta: true
 ## Amazon - Software Development Engineer
 **Jan 2024 - Present · Bengaluru, India**
 
-- Working as a Software Development Engineer at Amazon Alexa.
+- Building AI agents for device automation, leveraging Anthropic's Model Context Protocol SDK.
+- Developed infrastructure for ingesting performance metrics and displaying analytics.
+- Developed a custom scheduler for periodically fetching crashes from devices and routing them to appropriate stakeholders.
 
-**Skills:** `Python` `FastAPI` `React` `MCP SDK` `MongoDB ` `Postgres` `AWS`
+**Skills:** `Python` `FastAPI` `React` `MCP SDK` `MongoDB` `Postgres` `AWS`
 
 
 ## OpenLM - Software Development Engineer
