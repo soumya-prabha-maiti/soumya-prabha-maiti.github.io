@@ -2,8 +2,8 @@
 title: "Flask Blog Application"
 date: 2023-04-01
 categories: ["web app"]
-tags: ["Python", "Flask", "SQLite", "HTML", "CSS", "Bootstrap"]
-summary: "A full-featured blog application built with Flask, SQLite, and Bootstrap."
+tags: ["Python", "Flask", "SQLite", "HTML", "CSS"]
+summary: "A full-featured blog application built with Flask, SQLite, HTML and CSS."
 cover:
   image: "https://raw.githubusercontent.com/soumya-prabha-maiti/Flask-blog/main/readme_images/home.jpeg"
   alt: "Flask Blog Application"
@@ -11,7 +11,7 @@ cover:
 hidemeta: true
 ---
 
-A full-featured blog application built using **Flask**, **SQLite**, and **Bootstrap**.
+A full-featured blog application built using **Flask**, **SQLite**, **HTML** and **CSS**.
 
 ## Features
 - User registration, login, and logout
@@ -19,14 +19,14 @@ A full-featured blog application built using **Flask**, **SQLite**, and **Bootst
 - Pagination
 - Password reset via email
 - User profile with avatar
-- Responsive Bootstrap UI
+- Responsive UI
 
 ## Tech Stack
 | Component | Technology |
 |-----------|-----------|
 | Backend | Python + Flask |
 | Database | SQLite (via SQLAlchemy) |
-| Frontend | HTML + CSS + Bootstrap |
+| Frontend | HTML + CSS |
 | Email | Flask-Mail |
 | Deployment | HuggingFace Spaces |
 

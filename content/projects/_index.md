@@ -31,8 +31,8 @@ A project to classify input text as hate speech or not, using an LSTM model trai
 [View Code](https://github.com/soumya-prabha-maiti/hate-speech-classification) · [Live App](https://huggingface.co/spaces/soumyaprabhamaiti/hate_speech_classifier)
 
 ### [Flask Blog Application](../projects/flask-blog/)
-A full-featured blog application built using Flask, SQLite, and Bootstrap with user registration, login/logout, CRUD posts, pagination, and password reset.
+Full-stack blog application built with Flask, SQLAlchemy, and Jinja2 featuring user authentication, markdown rendering, live preview editor, an admin analytics dashboard, and password reset; deployed using Docker on Hugging Face Spaces.
 
-**Tags:** `Python` `Flask` `SQLite` `HTML` `CSS` `Bootstrap`
+**Tags:** `Python` `Flask` `SQLite` `HTML` `CSS`
 
 [View Code](https://github.com/soumya-prabha-maiti/Flask-blog) · [Live App](https://soumyaprabhamaiti-flask-blog.hf.space/home)
